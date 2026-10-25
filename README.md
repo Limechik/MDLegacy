@@ -41,9 +41,6 @@ The project needs two things that are not stored in this repository: the mbedTLS
 ```sh
 # mbedTLS 3.6.2 sources (compiled straight into the app)
 git clone --depth 1 -b v3.6.2 https://github.com/Mbed-TLS/mbedtls.git mbedtls
-
-# root certificates used to verify api.mangadex.org
-curl -L -o Resources/roots.pem https://curl.se/ca/cacert.pem
 ```
 
 Then build the package:
@@ -137,9 +134,6 @@ The code uses ARC and targets `iphone:clang:6.1:6.0` (see `Makefile`).
 ```sh
 # исходники mbedTLS 3.6.2 (компилируются прямо в приложение)
 git clone --depth 1 -b v3.6.2 https://github.com/Mbed-TLS/mbedtls.git mbedtls
-
-# корневые сертификаты для проверки api.mangadex.org
-curl -L -o Resources/roots.pem https://curl.se/ca/cacert.pem
 ```
 
 Затем собери пакет:

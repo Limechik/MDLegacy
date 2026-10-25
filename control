@@ -1,0 +1,11 @@
+Package: com.lime.mdlegacy
+Name: MDLegacy
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: MangaDex client for iOS 6
+Maintainer: you
+Author: you
+Section: Multimedia
+Depends: firmware (>= 6.0)
+Conflicts: com.local.mangadexlegacy
+Replaces: com.local.mangadexlegacy
